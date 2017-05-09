@@ -1,0 +1,215 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*     reset結束      */
+
+.content {
+    height: 800px;
+    margin: 0 auto;
+    background: url('https://goo.gl/9IVsSx') center no-repeat;
+}
+
+.listcontent {
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.write {
+    border-radius: 5%;
+}
+
+li {
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    font-size: 16px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    overflow: hidden;
+    color: red;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3%;
+
+}
+
+.link {
+    float: left;
+    padding: 1.5%;
+    margin-top: 2%;
+    margin-left: 5%;
+    color: black;
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.link:hover{
+    background-color:gray;
+    color: white;
+    transition: all .3s;
+}
